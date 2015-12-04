@@ -1,0 +1,39 @@
+<div data-anchor="{{ row.data_panel }}" data-chapter="{{ row.chapter_title.lower()|striptags }}" class="slide video{% if row.extra_class %} {{ row.extra_class }}{% endif %}" style="{% if row.image %} background-image: url('assets/img/{{ row.image }}'); {% endif %} {% if row.color %} background-color: {{ row.color }}; {% endif %}">
+
+    <div class="text full-block">
+        <div class="full-block-cell">
+            <div class="full-block-content">
+                {{ row.text }}
+            </div><!--full-block-content-->
+        </div><!--full-block-cell-->
+    </div><!--full-block-->
+
+    <div id="jp_container_1" class="jp-video">
+        <div class="jp-type-single">
+            <div class="jp-jplayer"></div>
+            <div class="jp-gui">
+                <div class="jp-video-play">
+                    <a href="javascript:;" class="jp-video-play-icon" tabindex="1">play</a>
+                </div>
+                <div class="jp-interface">
+                    <div class="jp-progress">
+                        <div class="jp-seek-bar">
+                            <div class="jp-play-bar"></div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <span class="jp-current-time"></span>
+                    </div>
+                    <div class="playback">
+                        <a href="javascript:;" class="jp-play btn" tabindex="1"><i class="fa fa-play"></i></a>
+                        <a href="javascript:;" class="jp-pause btn" tabindex="1"><i class="fa fa-pause"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="jp-no-solution">
+                <span>Update Required</span>
+                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+            </div>
+        </div>
+    </div>
+</div><!--/section-->
