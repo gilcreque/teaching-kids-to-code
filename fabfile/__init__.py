@@ -177,9 +177,9 @@ def render():
     """
     from flask import g
 
-    update_copy()
-    assets.sync()
-    update_data()
+    #update_copy()
+    #assets.sync()
+    #update_data()
     less()
     jst()
 

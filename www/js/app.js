@@ -83,9 +83,9 @@ var setUpFullPage = function() {
         * Numbers the stories according to their position.
         * Automates the appearance of the story numbers in the HTML.
         */
-        var story_number = 'Story ' + anchor_count;
-        $($(section).find('h4.story-number')[0]).html(story_number);
-        $($('div.nav div.' + anchor + ' h4 em')[0]).html(story_number);
+        var section_number = 'Section ' + anchor_count;
+        $($(section).find('h4.section-number')[0]).html(section_number);
+        $($('div.nav div.' + anchor + ' h4 em')[0]).html(section_number);
         anchor_count = anchor_count + 1;
     });
 
