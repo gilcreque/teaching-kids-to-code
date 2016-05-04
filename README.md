@@ -2,6 +2,8 @@
 
 _Published December 7, 2015_
 
+http://teachingkidstocode.report/
+
 ### Special Thanks
 
 Shout out to Shannon Landin and [Codecraft Lab][1]! Without you guys I wouldn't have been able to do this project! 
